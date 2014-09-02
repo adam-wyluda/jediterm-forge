@@ -1,4 +1,5 @@
 = jediterm-forge
 
-Provides https://github.com/forge/core/[JBoss Forge] console component for Swing based applications, 
-like IntelliJ, NetBeans, or standalone shell client.
+Provides https://github.com/forge/core/[JBoss Forge] console component based on 
+https://github.com/JetBrains/jediterm[JediTerm] for Swing applications, like IntelliJ, NetBeans, 
+or standalone shell client.
