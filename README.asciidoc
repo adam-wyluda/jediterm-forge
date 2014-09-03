@@ -11,5 +11,8 @@ or standalone shell client.
 ** `git checkout 2.0`
 * Install JediTerm as Maven artifact:
 ** `./install-jediterm-artifact "jediterm/build/jediterm-terminal-2.0.jar"`
+* Install IntelliJ libraries as Maven artifacts:
+** `git clone https://github.com/forge/intellij-idea-plugin.git`
+** `./install-intellij-libs $intellij_version $intellij_path`
 * Build and install this project to local Maven repository:
 ** `mvn clean install`
