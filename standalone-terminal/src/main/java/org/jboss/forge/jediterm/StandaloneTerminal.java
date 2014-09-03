@@ -10,7 +10,7 @@ import java.awt.*;
 /**
  * @author Adam Wyłuda
  */
-public class StandaloneShell extends JFrame
+public class StandaloneTerminal extends JFrame
 {
     public static void main(String[] args)
     {
@@ -19,13 +19,13 @@ public class StandaloneShell extends JFrame
         JediTermWidget widget = ForgeConsoleFactory.create(furnace);
         widget.getComponent();
 
-        new StandaloneShell(widget).setVisible(true);
+        new StandaloneTerminal(widget).setVisible(true);
     }
 
-    public StandaloneShell(JediTermWidget widget) throws HeadlessException
+    public StandaloneTerminal(JediTermWidget widget) throws HeadlessException
     {
         setSize(500, 500);
-        setTitle("Standalone Forge shell");
+        setTitle("Standalone Forge terminal");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setContentPane(widget.getComponent());
     }

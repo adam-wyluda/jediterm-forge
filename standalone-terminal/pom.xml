@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jboss.forge.jediterm</groupId>
-    <artifactId>standalone-shell</artifactId>
+    <artifactId>standalone-terminal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -57,11 +57,11 @@
                 <configuration>
                     <appendAssemblyId>false</appendAssemblyId>
                     <descriptors>
-                        <descriptor>${project.basedir}/src/main/resources/assembly/standalone-shell-assembly.xml</descriptor>
+                        <descriptor>src/main/resources/assembly/assembly.xml</descriptor>
                     </descriptors>
                     <archive>
                         <manifest>
-                            <mainClass>org.jboss.forge.jediterm.StandaloneShell</mainClass>
+                            <mainClass>org.jboss.forge.jediterm.StandaloneTerminal</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

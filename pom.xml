@@ -11,7 +11,7 @@
 
     <modules>
         <module>jediterm-forge</module>
-        <module>standalone-shell</module>
+        <module>standalone-terminal</module>
     </modules>
 
 </project>

@@ -44,7 +44,7 @@
         </dependency>
         <dependency>
             <groupId>org.jboss.forge.addon</groupId>
-            <artifactId>shell-api</artifactId>
+            <artifactId>shell</artifactId>
             <version>${forge.version}</version>
         </dependency>
     </dependencies>
