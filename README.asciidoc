@@ -6,12 +6,12 @@ or standalone shell client.
 
 == Build
 
-* Clone JediTerm repository on branch 2.0:
-** `git clone https://github.com/JetBrains/jediterm.git`
+* Clone this JediTerm repository fork:
+** `git clone https://github.com/adamwy/jediterm.git`
 ** `git checkout 2.0`
-* Build full JediTerm package with http://ant.apache.org/bindownload.cgi[Apache Ant]:
-** `ant jediterm-pty-package`
+* Build default JediTerm target with http://ant.apache.org/bindownload.cgi[Apache Ant]:
+** `ant`
 * Install JediTerm as Maven artifact:
-** `./install-jediterm-artifact "path_to_jediterm_build/jediterm-2.0.jar"`
+** `./install-jediterm-artifact "jediterm/build/jediterm-terminal-2.0.jar"`
 * Build and install this project to local Maven repository:
 ** `mvn clean install`
