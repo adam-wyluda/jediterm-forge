@@ -10,4 +10,4 @@ if "%JAR_PATH%"=="" (
     exit /b
 )
 
-mvn install:install-file -Dfile=%JAR_PATH% -DgroupId=com.intellij -DartifactId=jediterm-pty -Dversion=2.0 -Dpackaging=jar
+mvn install:install-file -Dfile=%JAR_PATH% -DgroupId=com.jediterm -DartifactId=jediterm-pty -Dversion=2.0 -Dpackaging=jar
