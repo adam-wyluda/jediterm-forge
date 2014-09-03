@@ -7,7 +7,7 @@ import org.jboss.forge.furnace.Furnace;
 /**
  * @author Adam Wyłuda
  */
-public class ShellFactory
+public class ForgeConsoleFactory
 {
     public static JediTermWidget create(Furnace furnace)
     {

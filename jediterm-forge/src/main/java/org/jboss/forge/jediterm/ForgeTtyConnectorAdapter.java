@@ -11,6 +11,7 @@ import java.io.IOException;
  */
 public class ForgeTtyConnectorAdapter implements TtyConnector
 {
+
     @Override
     public boolean init(Questioner q)
     {
