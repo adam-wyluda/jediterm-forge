@@ -1,12 +1,12 @@
 # This script installs JediTerm library as Maven artifact into local repository
 
-# Usage ./install-jediterm-artifact "path_to_jediterm_build_directory/jediterm-pty-2.0.jar"
+# Usage ./install-jediterm-artifact "path_to_jediterm_build_directory/jediterm-2.0.jar"
 
 JAR_PATH=$1
 
 if [ -z "$JAR_PATH" ]
 then
-    echo "Please provide path to jediterm-pty-2.0.jar as script argument"
+    echo "Please provide path to jediterm-2.0.jar as script argument"
     exit 1
 fi
 
