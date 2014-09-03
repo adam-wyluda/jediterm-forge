@@ -21,6 +21,8 @@ public class StandaloneShell extends JFrame
 
     public StandaloneShell(JediTermWidget widget) throws HeadlessException
     {
+        setSize(500, 500);
+        setTitle("Standalone Forge shell");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setContentPane(widget.getComponent());
     }

@@ -5,13 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jboss.forge.jediterm</groupId>
-    <artifactId>jediterm-forge-parent</artifactId>
+    <artifactId>standalone-shell</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>jediterm-forge</module>
-        <module>standalone-shell</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.forge.jediterm</groupId>
+            <artifactId>jediterm-forge</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
