@@ -3,3 +3,13 @@
 Provides https://github.com/forge/core/[JBoss Forge] console component based on 
 https://github.com/JetBrains/jediterm[JediTerm] for Swing applications, like IntelliJ, NetBeans, 
 or standalone shell client.
+
+== Build
+
+* Clone JediTerm repository on branch 2.0:
+** `git clone https://github.com/JetBrains/jediterm.git`
+** `git checkout 2.0`
+* Install JediTerm as Maven artifact:
+** `./install-jediterm-artifact.bat "path_to_jediterm_build/jediterm-pty-2.0.jar"`
+* Build and install this project to local Maven repository:
+** `mvn clean install`
