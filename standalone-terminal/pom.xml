@@ -32,27 +32,6 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.jboss.forge.furnace</groupId>
-                <artifactId>furnace-maven-plugin</artifactId>
-                <version>${forge.version}</version>
-                <executions>
-                    <execution>
-                        <id>deploy-addons</id>
-                        <phase>prepare-package</phase>
-                        <goals>
-                            <goal>addon-install</goal>
-                        </goals>
-                        <inherited>false</inherited>
-                        <configuration>
-                            <addonRepository>${project.build.directory}/addon-repository</addonRepository>
-                            <addonIds>
-                                <addonId>org.jboss.forge.addon:core,${forge.version}</addonId>
-                            </addonIds>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
