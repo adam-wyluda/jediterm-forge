@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.jboss.forge.jediterm</groupId>
     <artifactId>jediterm-forge</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
 
-    <properties>
-        <furnace.version>2.5.0.Final</furnace.version>
-        <forge.version>2.8.0.Final</forge.version>
-    </properties>
+    <parent>
+        <groupId>org.jboss.forge.jediterm</groupId>
+        <artifactId>jediterm-forge-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
 
     <dependencies>
         <!-- JediTerm dependencies -->
@@ -40,12 +40,10 @@
         <dependency>
             <groupId>org.jboss.forge.furnace</groupId>
             <artifactId>furnace-se</artifactId>
-            <version>${furnace.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.forge.addon</groupId>
             <artifactId>shell</artifactId>
-            <version>${forge.version}</version>
         </dependency>
     </dependencies>
 
