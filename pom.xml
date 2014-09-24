@@ -15,8 +15,7 @@
     </modules>
 
     <properties>
-        <furnace.version>2.5.0.Final</furnace.version>
-        <forge.version>2.8.0.Final</forge.version>
+        <forge.version>2.10.1.Final</forge.version>
     </properties>
 
     <dependencyManagement>
@@ -24,7 +23,7 @@
             <dependency>
                 <groupId>org.jboss.forge.furnace</groupId>
                 <artifactId>furnace-se</artifactId>
-                <version>${furnace.version}</version>
+                <version>${forge.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.forge.addon</groupId>
